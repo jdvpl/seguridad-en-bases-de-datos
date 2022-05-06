@@ -1,0 +1,19 @@
+.text-justify{
+  text-align: justify;
+}
+
+#contact {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
