@@ -2,6 +2,9 @@ import React,{useState,useEffect} from 'react'
 import axios from 'axios';
 import Message from './Message';
 import { VARIABLES } from '../Variables';
+import { formatDistanceToNow } from 'date-fns';
+import { es } from "date-fns/locale";
+
 const Contact = () => {
 
     const [error, seterror] = useState(false);
@@ -25,6 +28,7 @@ const Contact = () => {
             setmensajeError('Enviando Mensaje...');
             setcolor('warning')
             sendMessage(name, message);
+            e.target.reset();
         }
         
     }
@@ -34,10 +38,11 @@ const Contact = () => {
         const url=VARIABLES.server;
         try {
             const response=await axios.post(url, data);
-            if(response.status==200){
+            if(response.status===200){
                 seterror(true);
                 setmensajeError('Mensaje enviado.');
-                setcolor('success')
+                setcolor('success');
+                getData();
             }
             seterror(false);
             
@@ -59,7 +64,7 @@ const Contact = () => {
 
       useEffect(() => {
         getData();
-      }, [messages]);
+      }, []);
     
     let total="";
     let mensajes_data=[];
@@ -111,7 +116,12 @@ const Contact = () => {
                     mensajes_data.map((m)=>(
                         <div key={m.uid}>
                             <h5 className="text-white">{m.name}</h5>
-                            <p className="text-muted ms-3">{m.message}</p>
+                            <p className="text-white ms-3" dangerouslySetInnerHTML={{ __html: m.message }} />
+                            <small className="text-muted ms-3 ">
+                            Hace{" "}
+                                {formatDistanceToNow(new Date(m.date), { locale: es })}
+                                
+                            </small>
                         </div>
                     ))
                 }

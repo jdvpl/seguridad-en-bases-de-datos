@@ -1,17 +1,15 @@
 import React from 'react'
 import Actividad from './Actividad'
 import Banner from './Banner'
-import Cobit from './Cobit'
 import Contact from './Contact'
 import Footer from './Footer'
 import Header from './Header'
-import Introduccion from './Introduccion'
-import Itil from './Itil'
 import Objetivos from './Objetivos'
 import Conclusiones from './Conclusiones'
-import ArquitecturCobit from './ArquitecturCobit'
-import ComputacionNube from './ComputacionNube'
-import OptimizarProcesosTI from './OptimizarProcesosTI'
+import Alcances from './Alcances'
+import Descripcion from './Descripcion'
+import Presentadopor from './Presentadopor'
+import Componentes from './Componentes'
 
 const Inicio = () => {
   return (
@@ -19,14 +17,12 @@ const Inicio = () => {
       <Header/>
       <Banner/>
       <div className="container">
+        <Presentadopor/>
         <Objetivos/>
-        <Introduccion/>
         <Actividad/>
-        <OptimizarProcesosTI/>
-        <ArquitecturCobit/>
-        <ComputacionNube/>
-        <Cobit/>
-        <Itil/>
+        <Descripcion/>
+        <Alcances/>
+        <Componentes/>
         <Conclusiones/>
       </div>
         <Contact/>

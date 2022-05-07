@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Link } from "react-router-dom"
 
 const Header = () => {
@@ -5,7 +6,7 @@ const Header = () => {
       <div>
               <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm bg-black" id="mainNav">
       <div className="container">
-          <a className="navbar-brand fw-bold text-white" href="#">Gobierno TI</a>
+          <a className="navbar-brand fw-bold text-white" href="#">SBD Eje 2</a>
           <button className="navbar-toggler text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
               aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <i className="bi-list text-white"></i>
@@ -16,8 +17,8 @@ const Header = () => {
                   <li className="nav-item dropdown ">
                     <a className="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                     <ul className="dropdown-menu">
+                      <li><a className="dropdown-item" href="#Presentadopor">Presentado Por</a></li>
                       <li><a className="dropdown-item" href="#objetivos">Objetivos</a></li>
-                      <li><a className="dropdown-item" href="#introduccion">Introduccion</a></li>
                       <li><a className="dropdown-item" href="#actividad">Actividad</a></li>
                       <li><a className="dropdown-item" href="#OptimizarProcesosTI">Optimización de recursos TI</a></li>
                       <li><a className="dropdown-item" href="#arquitecturCobit">Arquitectura Cobit</a></li>
