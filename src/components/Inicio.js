@@ -16,6 +16,9 @@ import Cronogramas from './Cronogramas'
 import Actividadesdesarrollo from './Actividadesdesarrollo'
 import Formaspago from './Formaspago'
 import Condicionescomerciales from './Condicionescomerciales'
+import Tiempoentrega from './Tiempoentrega'
+import Softwareuso from './Softwareuso'
+import Procesos from './Procesos'
 
 const Inicio = () => {
   return (
@@ -35,6 +38,9 @@ const Inicio = () => {
         <Cronogramas/>
         <Formaspago/>
         <Condicionescomerciales/>
+        <Tiempoentrega/>
+        <Softwareuso/>
+        <Procesos/>
         <Conclusiones/>
       </div>
         <Contact/>

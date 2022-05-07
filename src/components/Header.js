@@ -17,15 +17,22 @@ const Header = () => {
                   <li className="nav-item dropdown ">
                     <a className="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contenido</a>
                     <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#Presentadopor">Presentado Por</a></li>
-                      <li><a className="dropdown-item" href="#objetivos">Objetivos</a></li>
-                      <li><a className="dropdown-item" href="#actividad">Actividad</a></li>
-                      <li><a className="dropdown-item" href="#OptimizarProcesosTI">Optimización de recursos TI</a></li>
-                      <li><a className="dropdown-item" href="#arquitecturCobit">Arquitectura Cobit</a></li>
-                      <li><a className="dropdown-item" href="#computacionNube">Computación en la Nube</a></li>
-                      <li><a className="dropdown-item" href="#cobit">Cobit</a></li>
-                      <li><a className="dropdown-item" href="#itil">Itil</a></li>
-                      <li><a className="dropdown-item" href="#conclusiones">Conclusiones</a></li>
+                    <li><a className="dropdown-item" href="#Presentadopor">Portada</a></li>
+            <li><a className="dropdown-item" href="#objetivos">Objetivos</a></li>
+            <li><a className="dropdown-item" href="#actividad">Instrucciones</a></li>
+            <li><a className="dropdown-item" href="#Descripcion">Descripcion de la necesidad</a></li>
+            <li><a className="dropdown-item" href="#Alcances">Alcances</a></li>
+            <li><a className="dropdown-item" href="#Componentes">Componentes</a></li>
+            <li><a className="dropdown-item" href="#Requerimientos">Requerimientos físicos y de software</a></li>
+            <li><a className="dropdown-item" href="#Costes">Costes</a></li>
+            <li><a className="dropdown-item" href="#Actividadesdesarrollo">Actividades de desarrollo con tiempos proyectados</a></li>
+            <li><a className="dropdown-item" href="#Cronogramas">Cronogramas</a></li>
+            <li><a className="dropdown-item" href="#Formaspago">Formas de pago</a></li>
+            <li><a className="dropdown-item" href="#Condicionescomerciales">Condiciones comerciales</a></li>
+            <li><a className="dropdown-item" href="#Tiempoentrega">Tiempo de entrega</a></li>
+            <li><a className="dropdown-item" href="#softwareuso">Si se usaran herramientas de software, argumentar su uso</a></li>
+            <li><a className="dropdown-item" href="#Procesos">Indicar cómo mejoraría la implementación de dicho sistema en el mejoramiento de la productividad, competitividad, procesos administrativos y procesos operativos del negocio.</a></li>
+            <li><a className="dropdown-item" href="#conclusiones">Conclusiones</a></li>
                     </ul>
                   </li>
               </ul>

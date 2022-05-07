@@ -5,10 +5,22 @@ const Conclusiones = () => {
     <div id="conclusiones" className="mt-5 pt-3">
       <h3 className="text-center">Conclusiones</h3>
         <p className="text-justify">
-          Durante el desarrollo de esta actividad estaremos revisando todo lo relacionado con COBIT e ITIL y como se aplican estos dos procesos dentro del gobierno de TI, aclarando que son dos procesos independientes que benefician a una empresa que está interesada en certificar la calidad de sus procesos de TI y la gestión de la tecnología.
+          
+          Al reconocer todos lo requerimientos que debemos tener en cuenta para el desarrollo del software, podemos analizar y calcular los tiempos de ejecucion asi como los diferentes componentes que va a tener. <q className='text-info'>Juan Daniel Suarez</q>
         </p>
         <p className="text-justify">
-          Hoy en día las empresas buscan incrementar su valor comercial apostando diariamente a sus procesos, capacitando a su personal en todo lo que concierne a la tecnología, ya que al estar a la vanguardia, el plus del empleado capacitado se ve dentro de la empresa como un crecimiento progresivo en este manera, asegurando la calidad del servicio o producto que se ofrece al público o cliente específico.
+          Gracias a este trabajo podemos utilizar una metodologia agil para el dicho desarrollo con tiempos pactados haciendo un sprinti diario.  <q className='text-info'>Juan Daniel Suarez</q>
+        </p>
+        <p>
+          Con las buenas practicas de programacion y de implementación en los diferentes areas se podra tener un software robusto y escalable.  <q className='text-info'>Liborio Castañeda.</q>
+          </p> 
+        <p>
+          Para el desarrollo de este sistema es necesario contar con la disponibilidad, los recursos para ellos, ya que sin ellos no es posible
+          <q className='text-info'>Liborio Castañeda.</q>
+        </p> 
+
+        <p>
+          Haciendo a un analisis detallado esta aplicacion web puede ser integrada  para movil ya que se contara con un Backend Robusto <q className='text-info'>Juan Daniel Suarez</q>
         </p>
     </div>
   )
