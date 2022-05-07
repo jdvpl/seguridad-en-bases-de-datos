@@ -10,6 +10,12 @@ import Alcances from './Alcances'
 import Descripcion from './Descripcion'
 import Presentadopor from './Presentadopor'
 import Componentes from './Componentes'
+import RequerimientosSoftware from './RequerimientosSoftware'
+import Costes from './Costes'
+import Cronogramas from './Cronogramas'
+import Actividadesdesarrollo from './Actividadesdesarrollo'
+import Formaspago from './Formaspago'
+import Condicionescomerciales from './Condicionescomerciales'
 
 const Inicio = () => {
   return (
@@ -23,6 +29,12 @@ const Inicio = () => {
         <Descripcion/>
         <Alcances/>
         <Componentes/>
+        <RequerimientosSoftware/>
+        <Costes/>
+        <Actividadesdesarrollo/>
+        <Cronogramas/>
+        <Formaspago/>
+        <Condicionescomerciales/>
         <Conclusiones/>
       </div>
         <Contact/>
